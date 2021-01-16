@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "dev-windows": "npm run build:ide-helpers-windows && nuxt-ts",
     "dev": "npm run build:ide-helpers && nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
-    "build:ide-helpers": "tailwind.cmd build assets/css/tailwind.css -o assets/css/tailwind.ide-helper.css -c ./tailwind.config.js"
+    "build:ide-helpers-windows": "tailwind.cmd build assets/css/tailwind.css -o assets/css/tailwind.ide-helper.css -c ./tailwind.config.js",
+    "build:ide-helpers": "tailwind build assets/css/tailwind.css -o assets/css/tailwind.ide-helper.css -c ./tailwind.config.js"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.0",
