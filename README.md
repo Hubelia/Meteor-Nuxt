@@ -28,7 +28,8 @@ npm install     # This will setup and install dependencies for both Nuxt and Met
 
 ## Startup
 ```bash
-npm start       # This will start both Nuxt and Meteor in development mode
+npm start       # This will start both Nuxt and Meteor in development mode on Linux
+npm run start-windows       # This will start both Nuxt and Meteor in development mode on Windows
 ```
 This will start up two servers, Meteor at [localhost:3050](http://localhost:3050) and Nuxt at
 [localhost:3000](http://localhost:3000).
