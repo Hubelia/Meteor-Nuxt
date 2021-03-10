@@ -12,24 +12,24 @@
     "build:ide-helpers": "tailwind build assets/css/tailwind.css -o assets/css/tailwind.ide-helper.css -c ./tailwind.config.js"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^2.0.1",
-    "@nuxtjs/composition-api": "^0.13.5",
-    "@tailwindcss/typography": "^0.2.0",
-    "@types/marked": "^1.2.1",
-    "@types/sanitize-html": "^1.27.0",
-    "@vue/composition-api": "^1.0.0-beta.26",
-    "core-js": "^3.8.2",
+    "@nuxt/typescript-runtime": "^2.1.0",
+    "@nuxtjs/composition-api": "^0.22.0",
+    "@tailwindcss/typography": "^0.4.0",
+    "@types/marked": "^2.0.0",
+    "@types/sanitize-html": "^1.27.1",
+    "@vue/composition-api": "^1.0.0-rc.3",
+    "core-js": "^3.9.1",
     "isomorphic-ws": "^4.0.1",
-    "marked": "^1.2.7",
+    "marked": "^2.0.1",
     "moment": "^2.29.1",
-    "nuxt": "^2.14.12",
-    "sanitize-html": "^2.3.0",
+    "nuxt": "^2.15.2",
+    "sanitize-html": "^2.3.2",
     "simpleddp": "^2.2.4",
-    "ws": "^7.4.2"
+    "ws": "^7.4.4"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.14.12",
-    "@nuxt/typescript-build": "^2.0.4",
+    "@nuxt/types": "^2.15.2",
+    "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@types/ws": "^7.4.0"
   }
